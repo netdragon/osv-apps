@@ -6,7 +6,7 @@ In order to build the app you need to install Rust tool chain (compiler + cargo)
 by following instructions here: https://www.rust-lang.org/en-US/install.html.
 
 ./scripts/build image=rust-httpserver
-./scripts/run.py --forward tcp:3000::3000
+./scripts/run.py --forward tcp::3000-:3000
 
 You can open it in a browser by typing this URL:
 http://localhost:8000/cli/
